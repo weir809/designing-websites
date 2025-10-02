@@ -1,0 +1,44 @@
+.btn-success{
+	background-color:green;
+}
+
+.header-right{
+	float:right;
+}
+
+.header-left{
+	float:left;
+}
+
+.centre{
+	clear:both;
+}
+
+
+/*JS FLash Message*/
+#status-area .flash_message {
+    padding: 5px;
+    color: green;
+    font-size: 24px;
+}
+
+#login-error .flash_message {
+    padding: 5px;
+    color: red;
+    font-size: 24px;
+}
+
+
+/*toggle password visibilty*/
+.form-group {
+     position: relative
+ }
+.form-group input[type="password"] {
+    padding-right: 10px
+}
+.form-group .glyphicon {
+    right: 15px;
+    position:absolute;
+    top:37px
+}
+

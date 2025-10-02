@@ -1,0 +1,70 @@
+	.container 
+	{
+   	margin: auto;
+    width: 70%;
+    border: none;
+    padding: 10px;
+	}
+	
+	h1,h2,h3
+	{
+	color: white;
+	text-align: center;
+	}
+	
+    .table
+    {
+	display: table;
+	
+	width: 50%;
+	margin: auto;
+    }
+    .title
+    {
+	display: table-caption;
+	text-align: center;
+	font-weight: bold;
+	font-size: medium;
+	color: blue;
+    }
+    .heading
+    {
+	display: table-row;
+	text-align: center;
+	font-weight: bold;
+	color:blue;
+    }
+    
+	.row:nth-child(odd) {
+	  background-color: #7777ff;
+	  color: #ffffff;
+	  margin-left: 0px;
+	  
+	}
+
+	.row:nth-child(even) {
+	  background-color: #9999ff;
+	  color: #ffffff;
+	  margin-left: 0px;
+	 
+	}
+	
+	.row
+    {
+	display: table-row;
+	
+	background-color: #ff0000;
+	color: #ffffff;
+	padding-right: 0px;
+	padding-left: 0px;
+	
+    }
+
+    .cell
+    {
+	display: table-cell;
+	border:3px solid black;
+	border-width: thin;
+	padding-left: 15px;
+	padding-right: 15px;
+    }
